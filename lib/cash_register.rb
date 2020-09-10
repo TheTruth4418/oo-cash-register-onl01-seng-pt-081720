@@ -35,6 +35,6 @@ def apply_discount
 end
 
 def void_last_transaction
-binding.pry
+@total !=0 ? @total -= @price : @total  = 0
 end
 end
