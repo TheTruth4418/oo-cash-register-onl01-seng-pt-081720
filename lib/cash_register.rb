@@ -18,4 +18,8 @@ class CashRegister
     @total -= disc
     @discount > 1 ?  "After the discount, the total comes to $#{@total.to_i}." :  "There is no discount to apply."
   end
+
+  def items
+
+  end
 end
