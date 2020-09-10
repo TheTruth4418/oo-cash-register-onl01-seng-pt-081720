@@ -82,7 +82,6 @@ describe 'CashRegister' do
       expect(cash_register.total).to eq(0.99)
     end
 
-  
+
   end
 end
-
